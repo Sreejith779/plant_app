@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:plant_app/features/homePage/homePage.dart';
 
 import 'package:plant_app/features/onBoarding/onBoarding.dart';
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: OnBoardingPage(),
+      home: HomePage()
     );
   }
 }
